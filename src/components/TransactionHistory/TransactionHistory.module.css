@@ -1,0 +1,20 @@
+.tableListContainer {
+  margin-top: 30px;
+  width: 400px;
+  border-collapse: collapse;
+}
+
+.tableListContainer thead {
+  color: white;
+  background-color: black;
+}
+
+.tableListContainer th,
+.tableListContainer td {
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.tableListContainer tr:nth-child(2n) {
+  background-color: lightgray;
+}
